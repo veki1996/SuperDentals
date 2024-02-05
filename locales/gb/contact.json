@@ -1,0 +1,20 @@
+{
+	"contact": {
+		"text-1": "Name",
+		"text-2": "Email",
+		"text-3": "Telephone number",
+		"text-4": "Message subject",
+		"text-5": "Message",
+		"text-6": "this field is required.",
+		"text-7": "Send",
+		"text-8": "Serbia",
+		"text-9": "B&H",
+		"text-10": "Montenegro"
+	},
+	"errors": {
+		"text-1": "Name is required.",
+		"text-2": "Email is required.",
+		"text-3": "Subject is required.",
+		"text-4": "Message is required."
+	}
+}

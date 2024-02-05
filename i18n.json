@@ -1,0 +1,29 @@
+{
+	"localeDetection": false,
+	"locales": ["gb", "rs", "ba", "de", "hr", "it", "si", "me"],
+	"defaultLocale": "ba",
+	"pages": {
+		"*": ["nav", "footer"],
+		"/": ["home", "contact", "card"],
+		"/contact": ["contact"],
+		"/clinics/[slug]": ["contact", "clinic", "card"],
+		"/about": ["about"],
+		"/learn-more": ["learn-more"],
+		"/dental-tourism": ["dental-tourism"],
+		"/privacy-policy": ["privacy-policy"],
+		"/tos": ["tos"],
+		"/partners": ["partners"],
+		"/marketing": ["marketing"],
+		"/verify": ["verify"],
+		"/clinics": ["card"],
+		"/create-clinic": ["create-edit-clinic"],
+		"/settings/clinic/[id]": ["create-edit-clinic"],
+		"/settings/billing": ["billing", "payment"],
+		"/packages": ["packages"],
+		"/payment": ["payment"],
+		"/success": ["success"],
+		"/settings/profile": ["profile"],
+		"/services/[slug]": ["services", "card"],
+		"/services": ["services"]
+	}
+}

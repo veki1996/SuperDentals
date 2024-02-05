@@ -1,0 +1,40 @@
+{
+	"hero": {
+		"title": "About us",
+		"text-1": "The web portal",
+		"text-2": "is a unique database of dentists intended for the promotion of dental practices from Serbia, Bosnia and Herzegovina and Montenegro. It was created to connect patients and dentists quickly and easily with just a few clicks.",
+		"text-3": "has an excellently spread, accessible network of dentists with many years of experience and proven work.",
+		"text-4": "Our easy-to-use",
+		"text-5": "search engine",
+		"text-6": "allows you to quickly find a suitable list of dentists in your area of interest."
+	},
+	"vission": {
+		"title": "VISION",
+		"text-1": "strives to be the premier online destination for oral health."
+	},
+	"mission": {
+		"title": "MISSION",
+		"text-1": "is dedicated to excellence in information, research and service, resulting in high-quality and affordable oral health care, and connecting the dental community in the region."
+	},
+	"offer": {
+		"text-1": "The SuperDENTALS.com offer is based on competencies. We offer a technically competent, socially sensitive dental practitioner who adheres to the highest standards of professional conduct and ethics."
+	},
+	"partners": {
+		"title": "From our partner dental offices, we expect:",
+		"text-1": "They have excellent problem-solving skills with a professional commitment to the patient",
+		"text-2": "They are oriented towards patient satisfaction and apply ethical principles in the provision of oral health care services",
+		"text-3": "They constantly improve their skills and abilities by adapting them to the latest trends and solutions in the field",
+		"text-4": "They function efficiently as a member of the global health care system"
+	},
+	"quality": {
+		"title": "We are committed to achieving quality in relations with clients by consistently providing quality and client-oriented service through:",
+		"text-1": "Continuous proactive evaluation and improvement",
+		"text-2": "Permanent education",
+		"text-3": "Responsible and professional partners",
+		"text-4": "Compliance with requests",
+		"text-5": "Constant improvement of the effectiveness of the quality management system"
+	},
+	"contact": {
+		"text-1": "If you are interested in contributing to our work, contact"
+	}
+}

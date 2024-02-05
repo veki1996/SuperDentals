@@ -1,0 +1,22 @@
+{
+	"filters": {
+		"filter-1": "Stadt",
+		"filter-2": "Dienstleistung",
+		"filter-3": "Sprache",
+		"filter-4": "In der Nähe des Flughafens",
+		"filter-5": "User-Bewertung"
+	},
+	"main": {
+		"text-1": "es gibt keine Leistungen mit definierten Preisen",
+		"text-2": "Suchergebnisse",
+		"text-3": "Es tut uns leid, es gibt keine Ergebnisse für Ihre Suchanfrage",
+		"service": "Dienstleistungen"
+	},
+	"sort": {
+		"text-1": "Zahnarztpraxen sortieren",
+		"text-2": "Sortieren von A-Z",
+		"text-3": "Sortieren von Z-A",
+		"text-4": "Die meisten Jahre der Arbeit",
+		"text-5": "Bestbewertet"
+	}
+}

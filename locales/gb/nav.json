@@ -1,0 +1,30 @@
+{
+    "nav-menu": {
+        "item-1": "Home",
+        "item-2": "About us",
+        "item-3": "Blog",
+        "item-4": "Find out more",
+        "item-5": "Dental tourism",
+        "item-6": "Partners",
+        "item-7": "Marketing",
+        "item-8": "Contact"
+    },
+    "user-menu": {
+        "item-1": "Profile",
+        "item-2": "Clinic",
+        "item-3": "Finances",
+        "item-4": "Logout"
+    },
+    "login-register": {
+        "text-1": "Login",
+        "text-2": "Registration",
+        "text-3": "Password",
+        "text-4": "Forgot your password?",
+        "text-5": "Email is required.",
+        "text-6": "Password is required."
+    },
+    "verify": {
+        "text-1": "Please verify your email to continue using the superdentals app. Didn't receive an email?",
+        "text-2": "Resend"
+    }
+}

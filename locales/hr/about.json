@@ -1,0 +1,40 @@
+{
+	"hero": {
+		"title": "O nama",
+		"text-1": "Web portal",
+		"text-2": "jedinstvena je baza stomatologa namijenjena promociji stomatoloških ordinacija iz Srbije, Bosne i Hercegovine i Crne Gore. Stvoren je za brzo i jednostavno povezivanje pacijenata i stomatologa sa samo nekoliko klikova.",
+		"text-3": "ima izvrsno raširenu, dostupnu mrežu stomatologa s dugogodišnjim iskustvom i provjerenim radom.",
+		"text-4": "Naša",
+		"text-5": "tražilica, ",
+		"text-6": "jednostavna za korištenje, omogućuje vam brzo pronalaženje odgovarajućeg popisa zubara u području vašeg interesa."
+	},
+	"vission": {
+		"title": "VIZIJA",
+		"text-1": "nastoji biti glavno online odredište za oralno zdravlje."
+	},
+	"mission": {
+		"title": "MISSION",
+		"text-1": "posvećen je izvrsnosti u informacijama, istraživanju i uslugama, što rezultira visokokvalitetnom i pristupačnom oralnom zdravstvenom njegom, te povezuje stomatološku zajednicu u regiji."
+	},
+	"offer": {
+		"text-1": "Ponuda SuperDENTALS.com temelji se na kompetencijama. Nudimo tehnički kompetentnog, socijalno osjetljivog stomatologa koji se pridržava najviših standarda profesionalnog ponašanja i etike."
+	},
+	"partners": {
+		"title": "Od naših partnera, stomatoloških ordinacija tražimo da:",
+		"text-1": "Imaju izvrsne vještine rješavanja problema uz profesionalnu predanost pacijentu",
+		"text-2": "Budu usmjereni na zadovoljstvo pacijenata, te primjenjuju ​​etička načela u pružanju usluga oralne zdravstvene zaštite",
+		"text-3": "Konstantno usavršavaju svoje vještine i sposobnosti prilagođavajući ih najsuvremenijim trendovima i rješenjima u struci",
+		"text-4": "Učinkovito funkcioniraju kao članovi svjetskog zdravstvenog sustava"
+	},
+	"quality": {
+		"title": "Predani smo postizanju kvalitete u odnosima s klijentima dosljednim pružanjem kvalitetne i klijentima orijentirane usluge kroz:",
+		"text-1": "Kontinuirano proaktivne evaluacije i poboljšanja",
+		"text-2": "Stalne edukacije",
+		"text-3": "Odgovorne i profesionalne partnere",
+		"text-4": "Poštovanje zahtjeva",
+		"text-5": "Stalno poboljšavanje učinkovitosti sustava upravljanja kvalitetom"
+	},
+	"contact": {
+		"text-1": "Ako ste zainteresirani doprinijeti našem radu, obratite nam se na"
+	}
+}

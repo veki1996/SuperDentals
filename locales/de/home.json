@@ -1,0 +1,34 @@
+{
+	"hero": {
+		"text-1": "Sie suchen einen Zahnarzt, der zu Ihnen passt?",
+		"text-2": "Sie sind an der richtigen Stelle ...",
+		"text-3": "SuperDENTALS.com",
+		"text-4": "ist die größte Datenbank von Zahnärzten auf dem Territorium von Serbien, Bosnien und Herzegowina und Montenegro. Es ermöglicht den direkten Kontakt mit den hochwertigsten Zahnarztpraxen und weitaus günstigeren Dienstleistungen, sogar 5 bis 10 mal, ohne die Qualität der Dienstleistungen und die Erfahrung des Zahnarztes in Frage zu stellen.",
+		"text-5": "Durchsuchen Sie unser Portal mit einer einzigartigen Datenbank von Zahnärzten und erhalten Sie die Antworten, nach denen Sie suchen, sowie ein „sofortiges“ kostenloses Online-Angebot von Zahnärzten aller Fachrichtungen in Serbien, Bosnien und Herzegowina und Montenegro.",
+		"text-6": "Suchen",
+		"text-7": "Praxis anmelden"
+	},
+	"blog": {
+		"text-1": "Ausgewählte Artikel aus den Bereichen Zahnheilkunde, Verbesserung der Mundgesundheit und Zahntourismus.",
+		"text-2": "Wenn Sie daran interessiert sind, Inhalte zu unserem Blog beizutragen und dadurch Ihre Arbeit zu fördern, senden Sie Ihren Artikel bitte an",
+		"text-3": "für eine mögliche Aufnahme und Veröffentlichung."
+	},
+	"filters": {
+		"filter-1": "Stadt",
+		"filter-2": "Dienstleistung",
+		"filter-3": "Sprache",
+		"filter-4": "In der Nähe des Flughafens",
+		"filter-5": "User-Bewertung"
+	},
+	"services": {
+		"heading": "Wählen Sie einen Dienst aus",
+		"text": "SONSTIGES"
+	},
+	"clinics": {
+		"heading": "Die beliebtesten Zahnarztpraxen",
+		"text": "Schau dir alles an"
+	},
+	"contact": {
+		"heading": "Kontaktieren Sie uns"
+	}
+}

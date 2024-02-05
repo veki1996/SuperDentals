@@ -1,0 +1,324 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                 String      @id @default(uuid())
+  name               String
+  surname            String
+  phoneNumber        String
+  email              String      @unique
+  password           String
+  verified           Boolean?    @default(false)
+  referalCode        String
+  usedReferralCount  Int?        @default(0)
+  active             Boolean?    @default(false)
+  onboardingComplete Boolean?    @default(false)
+  hash               String
+  country            String      @default("ba")
+  clinics            Clinic[]
+  subscriber         Subscriber?
+  role               Role        @default(CLIENT)
+  createdAt          DateTime    @default(now())
+  updatedAt          DateTime    @updatedAt
+  payments           Payment[]
+}
+
+model Clinic {
+  id                         String           @id @default(uuid())
+  jib                        String
+  pdv                        String?
+  name                       String
+  username                   String           @unique
+  address                    String?
+  mapCoordinates             String?
+  rating                     String?          @default("")
+  phoneNumbers               String           @db.VarChar(1000)
+  email                      String
+  numberOfOffices            Int?
+  yearsInService             Int?
+  numberOfDoctors            Int?
+  numberOfStaff              Int?
+  workHours                  String?          @db.VarChar(1000)
+  description                Json?
+  // Price per service
+  languagesSpoken            String?          @db.VarChar(1000)
+  imageAlbum                 String?
+  videoAlbum                 String?          @db.VarChar(1000)
+  distanceFromAirports       String?          @db.VarChar(2000)
+  creditCardPaymentAvailable Boolean?         @default(false)
+  wifiAvailable              Boolean?         @default(false)
+  parkingAvailable           Boolean?         @default(false)
+  warrantyProvided           Boolean?         @default(false)
+  firstCheckupIsFree         Boolean?         @default(false)
+  emergencyAvailability      Boolean?         @default(false)
+  premium                    Boolean?         @default(false)
+  website                    String?
+  facebook                   String?
+  twitter                    String?
+  instagram                  String?
+  linkedin                   String?
+  tiktok                     String?
+  // user relationship | many to 1
+  user                       User?            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId                     String?
+  // location relationship | many to 1
+  location                   Location?        @relation(fields: [locationId], references: [id])
+  locationId                 String?
+  // service relationship | many to many
+  services                   Service[]
+  // employees relationship | 1 to many
+  employees                  Employee[]
+  images                     Image[]
+  clinicViewsPerDay          ViewsCounter[]
+  createdAt                  DateTime         @default(now())
+  updatedAt                  DateTime         @updatedAt
+  clinicServices             ClinicServices[]
+}
+
+model Location {
+  id             String   @id @default(uuid())
+  cityName       String
+  zipCode        String
+  mapCoordinates String   @default("")
+  country        String
+  clinics        Clinic[]
+  airport        Airport?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model Service {
+  id                String           @id @default(uuid())
+  name              Json?
+  simplifiedName    String           @default("")
+  order             Int              @unique @default(0)
+  description       Json?
+  clinics           Clinic[]
+  category          ServiceCategory? @relation(fields: [serviceCategoryId], references: [id])
+  serviceCategoryId String?
+  image             Image?           @relation(fields: [imageId], references: [id])
+  imageId           String?          @unique
+  createdAt         DateTime         @default(now())
+  updatedAt         DateTime         @updatedAt
+  clinicServices    ClinicServices[]
+}
+
+model ClinicServices {
+  id        String  @id @default(uuid())
+  price     String? @default("0")
+  currency  String? @default("EUR") // Currency related to clinic.location.country -> if ba === "BAM" ...etc
+  // When submiting this form send data.country
+  service   Service @relation(fields: [serviceId], references: [id], onDelete: Cascade)
+  serviceId String
+  clinic    Clinic  @relation(fields: [clinicId], references: [id], onDelete: Cascade)
+  clinicId  String
+}
+
+model Partner {
+  id          String   @id @default(uuid())
+  name        String
+  website     String?
+  description String?
+  image       Image?   @relation(fields: [imageId], references: [id])
+  imageId     String?  @unique
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Employee {
+  id        String   @id @default(uuid())
+  name      String
+  surname   String
+  title     String
+  type      String
+  clinic    Clinic?  @relation(fields: [clinicId], references: [id], onDelete: Cascade)
+  clinicId  String?
+  images    Image?   @relation(fields: [imageId], references: [id])
+  imageId   String?  @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Airport {
+  id             String    @id @default(uuid())
+  name           String
+  code           String
+  mapCoordinates String
+  // location relationship | 1 to 1
+  location       Location? @relation(fields: [locationId], references: [id], onDelete: Cascade)
+  locationId     String?   @unique
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+}
+
+model Subscriber {
+  id                     String               @id @default(uuid())
+  validToDate            String?
+  approved               Boolean              @default(false)
+  referalCode            String?
+  discountedPackagePrice String?
+  discountPercentage     Int?
+  UID                    String               @unique
+  // user relationship | 1 to 1
+  user                   User?                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId                 String?              @unique
+  package                SubscriptionPackage? @relation(fields: [subscriptionPackageId], references: [id])
+  subscriptionPackageId  String?
+  createdAt              DateTime             @default(now())
+  updatedAt              DateTime             @updatedAt
+}
+
+model SubscriptionPackage {
+  id          String       @id @default(uuid())
+  name        String
+  price       Json
+  discount    Json?
+  accessor    String?
+  // subscriber relation | 1 to many 
+  subscribers Subscriber[]
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+}
+
+model Payment {
+  id             String        @id @default(uuid())
+  transactionId  String
+  subscriptionId String        @unique
+  amount         String
+  discounts      String        @db.VarChar(1000)
+  package        String
+  date           DateTime?
+  status         PaymentStatus @default(PENDING)
+  paymentMethod  PaymentMethod @default(CC)
+  user           User?         @relation(fields: [userId], references: [id])
+  userId         String?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+}
+
+model ServiceCategory {
+  id        String    @id @default(uuid())
+  name      String
+  // services relation | 1 to many
+  services  Service[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model Newsletter {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  isSubscribed Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Banner {
+  id        String   @id @default(uuid())
+  title     String?
+  website   String?
+  position  String
+  country   String   @default("ba")
+  priority  Int?     @default(1)
+  image     Image?   @relation(fields: [imageId], references: [id])
+  imageId   String?  @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Image {
+  id         String    @id @default(uuid())
+  name       String
+  size       String
+  dimensions String
+  type       String
+  clinic     Clinic?   @relation(fields: [clinicId], references: [id])
+  clinicId   String?
+  imageUsage ImageType @default(ALBUM)
+  employee   Employee?
+  partner    Partner?
+  banner     Banner?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  service    Service?
+}
+
+model Setting {
+  id           String   @id @default(uuid())
+  name         String
+  defaultValue String?
+  active       Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Faq {
+  id        String    @id @default(uuid())
+  question  Json?
+  answer    Json?
+  createdAt DateTime? @default(now())
+  updatedAt DateTime? @updatedAt
+}
+
+model Lexicon {
+  id          String    @id @default(uuid())
+  heading     Json?
+  description Json?
+  position    Json?
+  createdAt   DateTime? @default(now())
+  updatedAt   DateTime? @updatedAt
+}
+
+enum ImageType {
+  ALBUM
+  EMPLOYEE
+  LOGO
+  FEATURED
+  PARTNER
+  BANNER
+  SERVICE
+}
+
+enum Role {
+  CLIENT
+  ADMIN
+}
+
+enum PaymentMethod {
+  CC
+  INVOICE
+}
+
+enum PaymentStatus {
+  PENDING
+  PAID
+  FAILED
+}
+
+model ForgotPasswordRequests {
+  id        String   @id @default(uuid())
+  email     String
+  hash      String
+  verified  Boolean? @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ViewsCounter {
+  id        String   @id @default(uuid())
+  views     Int
+  date      String
+  clinic    Clinic?  @relation(fields: [clinicId], references: [id], onDelete: Cascade)
+  clinicId  String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

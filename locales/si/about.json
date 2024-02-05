@@ -1,0 +1,40 @@
+{
+	"hero": {
+		"title": "O nas",
+		"text-1": "Spletni portal",
+		"text-2": "je edinstvena baza zobozdravnikov, namenjena promociji zobozdravstvenih ordinacij iz Srbije, Bosne in Hercegovine ter Črne gore. Ustvarjen je za hitro in enostavno povezovanje pacientov in zobozdravnikov z le nekaj kliki.",
+		"text-3": "ima odlično razvejano, dostopno mrežo zobozdravnikov z dolgoletnimi izkušnjami in preverjenim delom.",
+		"text-4": "Naš",
+		"text-5": "iskalnik",
+		"text-6": "ki je enostaven za uporabo, vam omogoča hitro iskanje ustreznega seznama zobozdravnikov na področju, ki vas zanima."
+	},
+	"vission": {
+		"title": "VIZIJA",
+		"text-1": "si prizadeva biti glavna spletna destinacija za ustno zdravje."
+	},
+	"mission": {
+		"title": "MISIJA",
+		"text-1": "se zavzema za odličnost v informacijah, raziskavah in storitvah, kar ima za posledico visokokakovostno in cenovno ugodno oskrbo ustnega zdravja ter povezuje zobozdravniško skupnost v regiji."
+	},
+	"offer": {
+		"text-1": "Ponudba SuperDENTALS.com temelji na kompetencah. Nudimo tehnično usposobljenega, socialno občutljivega zobozdravnika, ki spoštuje najvišje standarde poklicnega ravnanja in etike."
+	},
+	"partners": {
+		"title": "Od naših partnerjev, zobozdravstvenih ordinacij, zahtevamo, da:",
+		"text-1": "Imajo odlične sposobnosti reševanja problemov z izvajanjem poklicne dolžnosti do pacienta",
+		"text-2": "Usmerjeni k zadovoljstvu pacientov in upoštevanju etičnih načel pri zagotavljanju storitev ustnega zdravja",
+		"text-3": "Nenehno izpopolnjujejo svoja znanje in sposobnosti, ki jih prilagajajo najsodobnejšim trendom in rešitvam v stroki",
+		"text-4": "Učinkovito delujejo kot člani globalnega sistema zdravstvenega varstva"
+	},
+	"quality": {
+		"title": "Zavezani smo k doseganju kakovosti v odnosih s strankami z doslednim zagotavljanjem kakovostnih, strankam usmerjenih storitev prek:",
+		"text-1": "Proaktivnih evaluacij in izboljšav",
+		"text-2": "Stalnega izobraževanje",
+		"text-3": "Odgovornih in profesionalnih partnerjev",
+		"text-4": "Spoštovanjem zahtev in želja",
+		"text-5": "Nenehnega izboljševanja učinkovitosti sistema vodenja kakovosti"
+	},
+	"contact": {
+		"text-1": "Če ste zainteresirani in se nam želite pridružiti, se obrnite na"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"contact": {
+		"text-1": "Ime",
+		"text-2": "Email",
+		"text-3": "Broj telefona",
+		"text-4": "Naslov poruke",
+		"text-5": "Poruka",
+		"text-6": "ovo polje je obavezno.",
+		"text-7": "Pošalji",
+		"text-8": "Srbija",
+		"text-9": "BiH",
+		"text-10": "Crna Gora"
+	},
+	"errors": {
+		"text-1": "Ime je obavezno.",
+		"text-2": "Email je obavezan.",
+		"text-3": "Naslov poruke je obavezan.",
+		"text-4": "Poruka je obavezna."
+	}
+}

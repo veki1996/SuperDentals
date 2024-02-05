@@ -1,0 +1,41 @@
+{
+	"filters": {
+		"filter-1": "Città",
+		"filter-2": "Servizio",
+		"filter-3": "Lingua ",
+		"filter-4": "Vicinanza all'aeroporto",
+		"filter-5": "Valutazione dell'utente."
+	},
+	"main": {
+		"text-1": "Orario di lavoro",
+		"text-2": "Contatta la clinica",
+		"text-3": "Telefono fisso",
+		"text-4": "Cellulare",
+		"text-5": "Aeroporti più vicini",
+		"text-6": "Informazioni",
+		"text-7": "Servizi",
+		"text-8": "Numero di cliniche",
+		"text-9": "Anni di esperienza",
+		"text-10": "Numero di dottori (impiegati)",
+		"text-11": "Numero di personale (impiegati)",
+		"text-12": "Pagamento con carta di credito",
+		"text-13": "WiFi in clinica",
+		"text-14": "Parcheggio per i pazienti",
+		"text-15": "Garanzia sui servizi",
+		"text-16": "Disponibili 24 ore per le emergenze",
+		"text-17": "La prima visita è gratuita",
+		"text-18": "Prezzo da",
+		"text-19": "Sì",
+		"text-20": "No",
+		"text-21": "Contattaci"
+	},
+	"days": {
+		"day-1": "Lunedì",
+		"day-2": "Martedì",
+		"day-3": "Mercoledì",
+		"day-4": "Giovedì",
+		"day-5": "Venerdì",
+		"day-6": "Sabato",
+		"day-7": "Domenica"	
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"filters": {
+		"filter-1": "Mesto",
+		"filter-2": "Storitev",
+		"filter-3": "Jezik",
+		"filter-4": "Bližina letališča",
+		"filter-5": "Ocena uporabnika"
+	},
+	"main": {
+		"text-1": "Delovni čas",
+		"text-2": "Kontaktirajte ambulanto",
+		"text-3": "Fiksni",
+		"text-4": "Mobilni",
+		"text-5": "Najbližja letališča",
+		"text-6": "Informacije",
+		"text-7": "Storitve",
+		"text-8": "Število ambulant",
+		"text-9": "Leta delovanja",
+		"text-10": "Število zdravnikov (zaposlenih)",
+		"text-11": "Število osebja (zaposlenih)",
+		"text-12": "Plačilo s kartico",
+		"text-13": "WiFi v ambulanti",
+		"text-14": "Parkirni prostor za paciente",
+		"text-15": "Garancija na storitve",
+		"text-16": "Dostopni 24 ur za nujne primere",
+		"text-17": "Prvi pregled je brezplačen",
+		"text-18": "Cena od",
+		"text-19": "Da",
+		"text-20": "Ne",
+		"text-21": "Kontaktirajte"
+	},
+	"days": {
+		"day-1": "Ponedeljek",
+		"day-2": "Torek",
+		"day-3": "Sreda",
+		"day-4": "Četrtek",
+		"day-5": "Petek",
+		"day-6": "Sobota",
+		"day-7": "Nedelja"
+	}
+}

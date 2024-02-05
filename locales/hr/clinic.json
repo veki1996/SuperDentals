@@ -1,0 +1,41 @@
+{
+	"filters": {
+		"filter-1": "Grad",
+		"filter-2": "Usluga",
+		"filter-3": "Jezik",
+		"filter-4": "Blizina zračne luke",
+		"filter-5": "Ocjena korisnika"
+	},
+	"main": {
+		"text-1": "Radno vrijeme",
+		"text-2": "Kontaktiraj ordinaciju",
+		"text-3": "Fiksni",
+		"text-4": "Mobilni",
+		"text-5": "Najbliži aerodromi",
+		"text-6": "Informacije",
+		"text-7": "Usluge",
+		"text-8": "Broj ordinacija",
+		"text-9": "Godine rada",
+		"text-10": "Broj doktora (zaposlenih)",
+		"text-11": "Broj osoblja (zaposlenih)",
+		"text-12": "Plaćanje karticom",
+		"text-13": "WiFi u ordinaciji",
+		"text-14": "Parking za pacijente",
+		"text-15": "Garancija na usluge",
+		"text-16": "Dostupni 24h za hitne slučajeve",
+		"text-17": "Prvi pregled je besplatan",
+		"text-18": "Cijena od",
+		"text-19": "Da",
+		"text-20": "Ne",
+		"text-21": "Kontaktiraj"
+	},
+	"days": {
+		"day-1": "Ponedeljak",
+		"day-2": "Utorak",
+		"day-3": "Srijeda",
+		"day-4": "Četvrtak",
+		"day-5": "Petak",
+		"day-6": "Subota",
+		"day-7": "Nedelja"
+	}
+}

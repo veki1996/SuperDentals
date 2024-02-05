@@ -1,0 +1,22 @@
+{
+	"filters": {
+		"filter-1": "Città",
+		"filter-2": "Servizio",
+		"filter-3": "Lingua ",
+		"filter-4": "Vicinanza all'aeroporto",
+		"filter-5": "Valutazione dell'utente"
+	},
+	"main": {
+		"text-1": "nessun servizio con prezzi definiti",
+		"text-2": "Risultati di ricerca",
+		"text-3": "Ci dispiace, non ci sono risultati per la tua ricerca",
+		"service": "Servizi"
+	},
+	"sort": {
+		"text-1": "Ordina cliniche",
+		"text-2": "Ordina da A-Z",
+		"text-3": "Ordina da Z-A",
+		"text-4": "Più anni di lavoro",
+		"text-5": "Più votati"
+	}
+}

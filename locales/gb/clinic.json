@@ -1,0 +1,41 @@
+{
+	"filters": {
+		"filter-1": "City",
+		"filter-2": "Service",
+		"filter-3": "Language",
+		"filter-4": "Near the airport",
+		"filter-5": "User rating"
+	},
+	"main": {
+		"text-1": "Working hours",
+		"text-2": "Contact the clinic",
+		"text-3": "Phone",
+		"text-4": "Mobile Phone",
+		"text-5": "Nearest airports",
+		"text-6": "Informations",
+		"text-7": "Services",
+		"text-8": "Number of clinics",
+		"text-9": "Years in service",
+		"text-10": "Number of doctors (employeed)",
+		"text-11": "Number of staff (employeed)",
+		"text-12": "Card payment",
+		"text-13": "WiFi in the clinic",
+		"text-14": "Parking for patients",
+		"text-15": "Service guarantee",
+		"text-16": "Available 24/7 for emergencies",
+		"text-17": "First visit is free",
+		"text-18": "Price from",
+		"text-19": "Yes",
+		"text-20": "No",
+		"text-21": "Contact"
+	},
+	"days": {
+		"day-1": "Monday",
+		"day-2": "Tuesday",
+		"day-3": "Wednesday",
+		"day-4": "Thursday",
+		"day-5": "Friday",
+		"day-6": "Saturday",
+		"day-7": "Sunday"
+	}
+}

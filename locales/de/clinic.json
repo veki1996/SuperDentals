@@ -1,0 +1,41 @@
+{
+	"filters": {
+		"filter-1": "Stadt",
+		"filter-2": "Dienstleistung",
+		"filter-3": "Sprache",
+		"filter-4": "In der Nähe des Flughafens",
+		"filter-5": "User-Bewertung"
+	},
+	"main": {
+		"text-1": "Arbeitszeit",
+		"text-2": "Kontaktieren Sie die Praxis",
+		"text-3": "Festnetz",
+		"text-4": "Mobil",
+		"text-5": "Nächstgelegene Flughäfen",
+		"text-6": "Informationen",
+		"text-7": "Dienstleistungen",
+		"text-8": "Anzahl der Praxen",
+		"text-9": "Jahre in Betrieb",
+		"text-10": "Anzahl der Ärzte (beschäftigt)",
+		"text-11": "Anzahl der Mitarbeiter (beschäftigt)",
+		"text-12": "Bezahlung mit Karte",
+		"text-13": "WiFi in der Praxis",
+		"text-14": "Parkplatz für Patienten",
+		"text-15": "Garantie für Dienstleistungen",
+		"text-16": "24 Stunden verfügbar für Notfälle",
+		"text-17": "Der erste Besuch ist kostenlos",
+		"text-18": "Preis ab",
+		"text-19": "Ja",
+		"text-20": "Nein",
+		"text-21": "Kontaktieren"
+	},
+	"days": {
+		"day-1": "Montag",
+		"day-2": "Dienstag",
+		"day-3": "Mittwoch",
+		"day-4": "Donnerstag",
+		"day-5": "Freitag",
+		"day-6": "Samstag",
+		"day-7": "Sonntag"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"nav-menu": {
+		"item-1": "Pagina iniziale",
+		"item-2": "Chi siamo",
+		"item-3": "Blog",
+		"item-4": "Scorpi di più",
+		"item-5": "Turismo dentale",
+		"item-6": "Partnership",
+		"item-7": "Marketing",
+		"item-8": "Contatto"
+	},
+	"user-menu": {
+		"item-1": "Profilo",
+		"item-2": "Clinica",
+		"item-3": "Finanza",
+		"item-4": "Logout"
+	},
+	"login-register": {
+		"text-1": "Accedi",
+		"text-2": "Registrazione",
+		"text-3": "Password",
+		"text-4": "Hai dimenticato la password??",
+		"text-5": "L'e-mail è obbligatoria.",
+		"text-6": "E 'richiesta la password."
+	},
+	"verify": {
+		"text-1": "Verifica la tua email per continuare a utilizzare l'app superdentals. Non hai ricevuto un'e-mail?",
+		"text-2": "Invia di nuovo"
+	}
+}

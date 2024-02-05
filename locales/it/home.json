@@ -1,0 +1,34 @@
+{
+	"hero": {
+		"text-1": "Stai cercando un dentista su misura per te?",
+		"text-2": "Sei nel posto giusto...",
+		"text-3": "SuperDENTALS.com",
+		"text-4": "è la più grande banca dati di dentisti in Serbia, Bosnia ed Erzegovina e Montenegro. Consente un contatto diretto con le cliniche odontoiatriche di alta qualità e servizi a prezzi più economici, anche fino a 5-10 volte, senza compromettere la qualità dei servizi e l'esperienza dei dentisti.",
+		"text-5": "Ricerca nel nostro portale contenente un unico database di dentisti e ricevi le risposte che cerchi, nonché un’offerta “istantanea” on line e gratuita di dentisti specializzati in ogni ambitio in Serbia, Bosnia ed Erzegovina e Montenegro.",
+		"text-6": "Cerca",
+		"text-7": "Registra la clinica"
+	},
+	"blog": {
+		"text-1": "Articoli selezionati nell'ambito dell'odontoiatria, miglioramento della salute orale e turismo dentale.",
+		"text-2": "Se sei interessato a contribuire al nostro blog e promuovere il tuo lavoro, invia il tuo articolo a ",
+		"text-3": "per una potenziale pubblicazione."
+	},
+	"filters": {
+		"filter-1": "Città",
+		"filter-2": "Servizio",
+		"filter-3": "Lingua ",
+		"filter-4": "Vicinanza all'aeroporto",
+		"filter-5": "Valutazione dell'utente."
+	},
+	"services": {
+		"heading": "Seleziona un servizio",
+		"text": "ALTRO"
+	},
+	"clinics": {
+		"heading": "Cliniche più popolari",
+		"text": "Guarda tutto"
+	},
+	"contact": {
+		"heading": "Contattaci"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"footer-menu": {
+		"item-1": "Home",
+		"item-2": "About us",
+		"item-3": "Blog",
+		"item-4": "Find out more",
+		"item-5": "Contact",
+		"item-6": "Dental tourism",
+		"item-7": "Partners",
+		"item-8": "Marketing",
+		"item-9": "Privacy Policy",
+		"item-10": "Terms of use"
+	},
+	"footer": {
+		"text-1": "Register clinic",
+		"text-2": "All rights reserved."
+	}
+}

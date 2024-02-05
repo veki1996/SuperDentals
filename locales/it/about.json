@@ -1,0 +1,40 @@
+{
+	"hero": {
+		"title": "Chi siamo",
+		"text-1": "Il portale web",
+		"text-2": "è un unico database di dentisti destinato a promuovere le cliniche odontoiatriche in Serbia, Bosnia ed Erzegovina e Montenegro. È stato creato per connettere in modo più rapido e facile i pazienti con i dentisti con pochi clic.",
+		"text-3": "ha una rete accessibile e ben distribuita di dentisti con comprovata esperienza pluriennale.",
+		"text-4": "Il nostro",
+		"text-5": "motore di ricerca",
+		"text-6": "facile da usare consente di trovare in modo rapido un elenco di dentisti nell'area interessata."
+	},
+	"vission": {
+		"title": "VISIONE",
+		"text-1": "si impegna a diventare una destinazione leader online per la salute orale."
+	},
+	"mission": {
+		"title": "MISSIONE",
+		"text-1": "è dedicato all'eccellenza nell'informazione, nella ricerca e nei servizi, che si traducono in cure odontoiatriche di alta qualità e convenienti, nonché nella connessione della comunità odontoiatrica della regione."
+	},
+	"offer": {
+		"text-1": "L'offerta di SuperDENTALS.com si basa sulle competenze. Offriamo un professionista dell'odontoiatria tecnicamente competente e socialmente sensibile che si attiene ai più elevati standard di comportamento professionale ed etico. "
+	},
+	"partners": {
+		"title": "Ai nostri partner, cliniche odontoiatriche chiediamo di:",
+		"text-1": "Avere eccellenti competenze nella risoluzione dei problemi con l'applicazione degli obblighi professionali verso il paziente",
+		"text-2": "Essere orientati alla soddisfazione dei pazienti, applicando principi etici nella fornitura di servizi di cura della salute orale",
+		"text-3": "Migliorare costantemente le proprie competenze e abilità adattandole alle tendenze e soluzioni più moderne nel settore",
+		"text-4": "Funzionare efficacemente come membri del sistema sanitario globale."
+	},
+	"quality": {
+		"title": "Ci impegnamo ad offrire la massima qualità nelle relazioni con i clienti garantendo costantemente servizi di alta qualità e orientati ai clienti attraverso:",
+		"text-1": "Valutazioni e miglioramenti proattivi continui",
+		"text-2": "Educazione costante",
+		"text-3": "Partner responsabili e professionali",
+		"text-4": "Rispetto delle richieste",
+		"text-5": "Miglioramento continuo dell'efficacia del sistema di gestione della qualità."
+	},
+	"contact": {
+		"text-1": "Se sei interessato a contribuire al nostro lavoro, contattaci all'indirizzo"
+	}
+}

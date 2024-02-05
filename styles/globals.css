@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.button {
+		@apply bg-primaryColor text-white font-[600] text-[18px] md:text-[20px] rounded-[8px] px-[24px] py-[12px] flex justify-center items-center hover:bg-primaryColor/80 transition-colors;
+	}
+	.button-outline {
+		@apply bg-white text-primaryColor border border-primaryColor font-[600] text-[18px] md:text-[20px] rounded-[8px] px-[24px] py-[12px] flex justify-center items-center hover:bg-white/80 transition-colors;
+	}
+	.heading {
+		@apply text-primaryColor font-[700] md:text-[48px] text-[24px];
+	}
+	.form-input {
+		@apply bg-[#F3F3F3] rounded-[6px] shadow-black/25 shadow-sm px-[24px] py-[13px] placeholder:font-[400] placeholder:text-[18px] focus:border-primaryColor focus:border focus:outline-none leading-none;
+	}
+	.clinic-input {
+		@apply border border-[#727272] rounded-[6px] text-[18px] px-[24px] py-[13px] placeholder:text-[18px] placeholder:text-[#727272] focus:border-primaryColor focus:border focus:outline-none leading-none
+	}
+	.form-label {
+		@apply text-grayColor font-[600] text-[18px];
+	}
+
+
+}
+
+/*  added because we need display  correct white-space as user wrote it  */
+.ql-editor {
+	white-space: normal !important;
+	font-size: large;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ffffff !important;
+}
+body {
+	background-color: #ffffff !important;
+}
+
+
+@media (min-width: 1024px) {
+    table {
+      display: inline-table !important;
+    }
+
+    thead tr:not(:first-child) {
+      display: none;
+    }
+  }
+
+  td:not(:last-child) {
+    border-bottom: 0;
+  }
+
+  th:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+  }
+
+.custom-img {
+	background-image: url('https://images.unsplash.com/photo-1662469558430-27e517873cbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1758&q=80');
+}
+
+.swiper-pagination {
+	position: relative !important;
+	margin-top: 20px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+	background-color: #E6E6E6
+	;
+	opacity: 1;
+	transition: all 300ms ease-in-out;
+	width: 12px;
+	height: 12px;
+  }
+
+.swiper-pagination .swiper-pagination-bullet-active {
+	background-color: #818181;
+	transform: scale(1.5);
+	transition: all 300ms ease-in-out;
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 20px;
+  }
+
+.scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #E6E6E6;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background: #FC5122;
+    border-radius: 100vh;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #FC5122;
+}
+
+.table th:first-child {
+    position: static;
+}
+
+/* Main styles */
+/* Container padding for mobile phone: px-6 */
+/* Container padding for tablet and all above: px-16 */

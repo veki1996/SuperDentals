@@ -1,0 +1,30 @@
+{
+    "nav-menu": {
+        "item-1": "Heim",
+        "item-2": "Über uns",
+        "item-3": "Bloggen",
+        "item-4": "Finde mehr heraus",
+        "item-5": "Zahntourismus",
+        "item-6": "Partner",
+        "item-7": "Marketing",
+        "item-8": "Kontakt"
+    },
+    "user-menu": {
+        "item-1": "Profil",
+        "item-2": "Praxis",
+        "item-3": "Finanzen",
+        "item-4": "Abmelden"
+    },
+    "login-register": {
+        "text-1": "Anmeldung",
+        "text-2": "Registrierung",
+        "text-3": "Passwort",
+        "text-4": "Passwort vergessen?",
+        "text-5": "E-Mail ist erforderlich.",
+        "text-6": "Passwort ist erforderlich."
+    },
+    "verify": {
+        "text-1": "Bitte überprüfen Sie Ihre E-Mail, um die superdentals-App weiterhin zu verwenden. Haben Sie keine E-Mail erhalten?",
+        "text-2": "Erneut senden"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "faq": {
+        "text-1": "How can we help you? Find answers to common questions or contact us at",
+        "text-2": "We will be happy to answer any further questions about the use of our database, details of therapy, dental tourism, travel or treatment modalities, as well as special offers for patients."
+    },
+    "dental-lexicon": {
+        "heading": "DENTAL LEXICON",
+        "text-1": "Information that will help you understand dental terms, whether you are looking for information or want to be as informed as possible about terms and concepts from this field.",
+        "text-2": "This list of dental terms is not complete and we update it daily. If you are looking for any word not listed that is related to oral health, please send it to us at",
+        "text-3": "and we will integrate it into the term list."
+    }
+}

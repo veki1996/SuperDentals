@@ -1,0 +1,20 @@
+{
+	"contact": {
+		"text-1": "Name",
+		"text-2": "E-Mail",
+		"text-3": "Telefonnummer",
+		"text-4": "Betreff",
+		"text-5": "Nachricht",
+		"text-6": "Dieses Feld ist benötigt.",
+		"text-7": "Senden",
+		"text-8": "Serbien",
+		"text-9": "B&H",
+		"text-10": "Montenegro"
+	},
+	"errors": {
+		"text-1": "Der Name ist erforderlich.",
+		"text-2": "Die E-Mail ist erforderlich.",
+		"text-3": "Der Betreff ist erforderlich.",
+		"text-4": "Die Nachricht ist erforderlich."
+	}
+}

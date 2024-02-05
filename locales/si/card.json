@@ -1,0 +1,22 @@
+{
+	"filters": {
+		"filter-1": "Mesto",
+		"filter-2": "Storitev",
+		"filter-3": "Jezik",
+		"filter-4": "Bližina letališča",
+		"filter-5": "Ocena uporabnika"
+	},
+	"main": {
+		"text-1": "storitev z določenimi cenami ni",
+		"text-2": "Rezultati iskanja",
+		"text-3": "Oprostite, za vašo poizvedbo ni rezultatov",
+		"service": "Storitve"
+	},
+	"sort": {
+		"text-1": "Razvrsti ordinacije",
+		"text-2": "Razvrsti od A do Z",
+		"text-3": "Razvrsti od Z-A",
+		"text-4": "Največ let izkušenj",
+		"text-5": "Najbolje ocenjeno"
+	}
+}

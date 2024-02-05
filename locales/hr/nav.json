@@ -1,0 +1,30 @@
+{
+    "nav-menu": {
+        "item-1": "Početna",
+        "item-2": "O nama",
+        "item-3": "Blog",
+        "item-4": "Saznajte više",
+        "item-5": "Dentalni turizam",
+        "item-6": "Partneri",
+        "item-7": "Marketing",
+        "item-8": "Kontakt"
+    },
+    "user-menu": {
+        "item-1": "Profil",
+        "item-2": "Ordinacija",
+        "item-3": "Finansije",
+        "item-4": "Odjavi me"
+    },
+    "login-register": {
+        "text-1": "Prijava",
+        "text-2": "Registracija",
+        "text-3": "Lozinka",
+        "text-4": "Zaboravili ste lozinku?",
+        "text-5": "Email je obavezan.",
+        "text-6": "Lozinka je obavezna."
+    },
+    "verify": {
+        "text-1": "Molimo verificirajte vaš email kako biste nastavili koristiti superdentals aplikaciju. Niste dobili email?",
+        "text-2": "Pošalji ponovo"
+    }
+}

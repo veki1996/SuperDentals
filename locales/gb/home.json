@@ -1,0 +1,34 @@
+{
+	"hero": {
+		"text-1": "Are you looking for a dentist that suits you?",
+		"text-2": "You are in the right place...",
+		"text-3": "SuperDENTALS.com",
+		"text-4": "is the largest database of dentists on the territory of Serbia, Bosnia and Herzegovina and Montenegro. It enables direct contact with the highest quality dental practices and far cheaper services, even 5 to 10 times, without questioning the quality of the service and the experience of the dentist.",
+		"text-5": "Search our portal with a unique database of dentists and get the answers you are looking for, as well as an „instant“ free online offer of dentists of all specialties in Serbia, Bosnia and Herzegovina and Montenegro.",
+		"text-6": "Search",
+		"text-7": "Register the practice"
+	},
+	"blog": {
+		"text-1": "Selected articles in the field of dentistry, improvement of oral health and dental tourism.",
+		"text-2": "If you are interested in contributing content to our blog and thereby promoting your work, please send your article to",
+		"text-3": "or potential inclusion and publication."
+	},
+	"filters": {
+		"filter-1": "City",
+		"filter-2": "Service",
+		"filter-3": "Language",
+		"filter-4": "Near the airport",
+		"filter-5": "User rating"
+	},
+	"services": {
+		"heading": "Select a service",
+		"text": "OTHER"
+	},
+	"clinics": {
+		"heading": "The most popular dental offices",
+		"text": "View all"
+	},
+	"contact": {
+		"heading": "Contact us"
+	}
+}

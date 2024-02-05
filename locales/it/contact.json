@@ -1,0 +1,20 @@
+{
+	"contact": {
+		"text-1": "Nome",
+		"text-2": "Email",
+		"text-3": "Numero di telefono",
+		"text-4": "Titolo del messaggio",
+		"text-5": "Messaggio",
+		"text-6": "questo campo è obbligatorio.",
+		"text-7": "Invia",
+		"text-8": "Serbia",
+		"text-9": "B&H",
+		"text-10": "Montenegro"
+	},
+	"errors": {
+		"text-1": "Il nome è obbligatorio.",
+		"text-2": "L'e-mail è obbligatoria.",
+		"text-3": "Il titolo del messaggio è obbligatorio.",
+		"text-4": "Messaggio è obbligatorio."
+	}
+}

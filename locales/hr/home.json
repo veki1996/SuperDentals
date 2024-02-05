@@ -1,0 +1,34 @@
+{
+	"hero": {
+		"text-1": "Tražite stomatologa po vašoj mjeri?",
+		"text-2": "Na pravom ste mjestu...",
+		"text-3": "SuperDENTALS.com",
+		"text-4": "je najveća baza stomatologa na teritoriju Srbije, Bosne i Hercegovine i Crne Gore. Omogućuje izravan kontakt s najkvalitetnijim stomatološkim ordinacijama i daleko jeftinije usluge, čak 5 do 10 puta, ne dovodeći u pitanje kvalitetu usluge i iskustvo zubara.",
+		"text-5": "Pretražujte naš portal s jedinstvenom bazom stomatologa i dobijte odgovore koje tražite, kao i „instant“ besplatnu online ponudu zubara svih specijalnosti u Srbiji, Bosni i Hercegovini i Crnoj Gori.",
+		"text-6": "Pretraži",
+		"text-7": "Registrirajte ordinaciju"
+	},
+	"blog": {
+		"text-1": "Odabrani članci iz područja stomatologije, unapređenja oralnog zdravlja i dentalnog turizma.",
+		"text-2": "Ako ste zainteresirani doprinijeti sadržaju na našem blogu i time promovirati svoj rad, molimo pošaljite svoj članak na",
+		"text-3": "za moguće uključivanje i objavljivanje."
+	},
+	"filters": {
+		"filter-1": "Grad",
+		"filter-2": "Usluga",
+		"filter-3": "Jezik",
+		"filter-4": "Blizina zračne luke",
+		"filter-5": "Ocjena korisnika"
+	},
+	"services": {
+		"heading": "Odaberite uslugu",
+		"text": "OSTALO"
+	},
+	"clinics": {
+		"heading": "Najpopularnije ordinacije",
+		"text": "Pogledaj sve"
+	},
+	"contact": {
+		"heading": "Kontaktiraj nas"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"filters": {
+		"filter-1": "Grad",
+		"filter-2": "Usluga",
+		"filter-3": "Jezik",
+		"filter-4": "Blizina aerodroma",
+		"filter-5": "Ocjena korisnika"
+	},
+	"main": {
+		"text-1": "nema usluga sa definisanim cijenama",
+		"text-2": "Rezultati pretrage",
+		"text-3": "Žao nam je, nema rezultata za vaš upit",
+		"service": "Usluge"
+	},
+
+	"sort": {
+		"text-1": "Sortiraj ordinacije",
+		"text-2": "Sortiraj od A-Z",
+		"text-3": "Sortiraj od Z-A",
+		"text-4": "Najviše godina rada",
+		"text-5": "Najbolje ocijenjeni"
+	}
+}

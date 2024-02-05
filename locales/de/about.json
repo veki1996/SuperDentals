@@ -1,0 +1,40 @@
+{
+	"hero": {
+		"title": "Über uns",
+		"text-1": "Das Webportal",
+		"text-2": "ist eine einzigartige Datenbank von Zahnärzten zur Förderung von Zahnarztpraxen aus Serbien, Bosnien und Herzegowina und Montenegro. Es wurde geschaffen, um Patienten und Zahnärzte schnell und einfach mit nur wenigen Klicks zu verbinden.",
+		"text-3": "verfügt über ein hervorragend ausgebautes, zugängliches Netzwerk von Zahnärzten mit langjähriger Erfahrung und bewährter Arbeit.",
+		"text-4": "Unsere einfach zu bedienende",
+		"text-5": "Suchmaschine",
+		"text-6": "ermöglicht es Ihnen, schnell eine passende Liste von Zahnärzten in Ihrem Interessengebiet zu finden."
+	},
+	"vission": {
+		"title": "VISION",
+		"text-1": "ist bestrebt, die führende Online-Adresse für Mundgesundheit zu sein."
+	},
+	"mission": {
+		"title": "MISSION",
+		"text-1": "widmet sich exzellenten Informationen, Forschung und Service, was zu einer qualitativ hochwertigen und erschwinglichen Mundgesundheitsversorgung führt und die zahnärztliche Gemeinschaft in der Region verbindet.."
+	},
+	"offer": {
+		"text-1": "Das Angebot von SuperDENTALS.com basiert auf Kompetenzen. Wir bieten einen technisch kompetenten, sozial sensiblen Zahnarzt, der sich an die höchsten Standards des professionellen Verhaltens und der Ethik hält."
+	},
+	"partners": {
+		"title": "Wir bitten unsere Partner, Zahnarztpraxen, um:",
+		"text-1": "Sie verfügen über ausgezeichnete Fähigkeiten zur Problemlösung mit professionellem Engagement für den Patienten",
+		"text-2": "Sie orientieren sich an der Patientenzufriedenheit und wenden ethische Grundsätze bei der Erbringung von zahnmedizinischen Leistungen an",
+		"text-3": "Sie verbessern ständig ihre Fähigkeiten und Fertigkeiten, indem sie sie an die modernsten Trends und Lösungen des Berufs anpassen",
+		"text-4": "Sie funktionieren effizient als Mitglied des globalen Gesundheitssystems"
+	},
+	"quality": {
+		"title": "Wir verpflichten uns, Qualität in den Beziehungen zu unseren Kunden zu erreichen, indem wir konsequent Qualität und kundenorientierten Service bieten durch:",
+		"text-1": "Kontinuierliche proaktive Bewertung und Verbesserung",
+		"text-2": "Ständige Weiterbildung",
+		"text-3": "Verantwortungsvolle und professionelle Partner",
+		"text-4": "Anfragen respektieren",
+		"text-5": "Ständige Verbesserung der Wirksamkeit des Qualitätsmanagementsystems"
+	},
+	"contact": {
+		"text-1": "Wenn Sie daran interessiert sind, zu unserer Arbeit beizutragen, wenden Sie sich an"
+	}
+}

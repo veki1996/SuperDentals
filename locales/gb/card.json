@@ -1,0 +1,22 @@
+{
+	"filters": {
+		"filter-1": "City",
+		"filter-2": "Service",
+		"filter-3": "Language",
+		"filter-4": "Near the airport",
+		"filter-5": "User rating"
+	},
+	"main": {
+		"text-1": "no services with defined prices",
+		"text-2": "Search results",
+		"text-3": "Sorry, there are no results for your query",
+		"service": "Services"
+	},
+	"sort": {
+		"text-1": "Sort dental offices",
+		"text-2": "Sort from A-Z",
+		"text-3": "Sort from Z-A",
+		"text-4": "The most years of work",
+		"text-5": "Top rated"
+	}
+}
